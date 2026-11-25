@@ -1,0 +1,5 @@
+# Folder gambar soal: matikan eksekusi script, hanya izinkan gambar
+Options -Indexes
+<FilesMatch "\.(php|phtml|php[0-9]|phar|pl|py|cgi|sh)$">
+    Require all denied
+</FilesMatch>
