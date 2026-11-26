@@ -3,14 +3,6 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-// Kursor otomatis ke kolom pertama hanya di perangkat dengan mouse; di HP keyboard tidak langsung menutupi layar
-document.addEventListener('DOMContentLoaded', function () {
-  if (window.matchMedia('(pointer: fine)').matches) {
-    var f = document.querySelector('[data-fokus]');
-    if (f) { f.focus(); }
-  }
-});
-</script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { return; }
